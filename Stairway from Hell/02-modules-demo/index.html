@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Phaser Template</title>
+
+    <style>
+      html,
+      body {
+          width: 100%;
+          height: 100%;
+          margin: 0;
+      }
+      canvas {
+          background-color: #000;
+          display: block;
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          width: 100%;
+          height: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="game-container"></div>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.70.0/dist/phaser.js"></script>
+    <script src="./js/index.js" type="module"></script>
+
+    <script nomodule>
+      alert(
+        "This browser doesn't support JS modules, so the example won't work as is. Try the latest version of Chrome, FF or Safari!"
+      );
+    </script>
+  </body>
+</html>
